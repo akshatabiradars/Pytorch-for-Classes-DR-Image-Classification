@@ -1,7 +1,11 @@
 
 import streamlit as st
 from PIL import Image
-from clf import predict
+import torch
+from torchvision import transforms
+from PIL import Image
+import requests
+from io import BytesIO
 
 st.set_option('deprecation.showfileUploaderEncoding', False)
 
