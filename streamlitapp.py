@@ -1,5 +1,4 @@
-pip install streamlit
-streamlit run app.py
+
 import streamlit as st
 from PIL import Image
 from clf import predict
@@ -22,3 +21,4 @@ if file_up is not None:
 
     for i in labels:
         st.write("Prediction (index, name)", i[0], ",   Score: ", i[1])
+streamlit run app.py
