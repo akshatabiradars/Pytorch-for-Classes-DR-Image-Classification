@@ -1,6 +1,7 @@
 ## Requirements
 torch
 torchvision
-streamlit
 pillow
+pip install streamlit
+
 
