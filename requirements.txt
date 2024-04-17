@@ -1,7 +1,0 @@
-## Requirements
-torch
-torchvision
-pillow
-pip install streamlit
-
-
